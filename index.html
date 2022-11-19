@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WORLD CUP QATAR 2022</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/png" href="./images/Favicon.png" />
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <section class="groups">
+                <h2>WORLD CUP QATAR 2022 GROUPS</h2>
+                <ul class="list-item">
+                    <li>
+                        <p>Group A</p>
+                        <img src="./images/Groups/a.jpg" alt="a조" />
+                    </li>
+                    <li>
+                        <p>Group B</p>
+                        <img src="./images/Groups/b.jpg" alt="b조" />
+                    </li>
+                    <li>
+                        <p>Group C</p>
+                        <img src="./images/Groups/c.jpg" alt="c조" />
+                    </li>
+                    <li>
+                        <p>Group D</p>
+                        <img src="./images/Groups/d.jpg" alt="d조" />
+                    </li>
+                    <li>
+                        <p>Group E</p>
+                        <img src="./images/Groups/e.jpg" alt="e조" />
+                    </li>
+                    <li>
+                        <p>Group F</p>
+                        <img src="./images/Groups/f.jpg" alt="f조" />
+                    </li>
+                    <li>
+                        <p>Group G</p>
+                        <img src="./images/Groups/g.jpg" alt="g조" />
+                    </li>
+                    <li>
+                        <p>Group H</p>
+                        <a id="modal-open" href="#G-H"
+                            ><img src="./images/Groups/h.jpg" alt="h조"
+                        /></a>
+                    </li>
+                </ul>
+                <button class="btn2-prev"><</button>
+                <button class="btn2-next">></button>
+            </section>
+            <section class="group-h">
+                <h2 id="G-H">Group H</h2>
+                <ul class="list-group-item">
+                    <li class="group-item">
+                        <img
+                            class="front card"
+                            src="./images/Group-H/pt.png"
+                            alt="포르투갈 국기"
+                        />
+                        <div class="back card">
+                            <img src="./images/H-player/Ronaldo.png" alt="" />
+                        </div>
+                    </li>
+                    <li class="group-item">
+                        <img
+                            class="front card"
+                            src="./images/Group-H/gh.png"
+                            alt="가나 국기"
+                        />
+                        <div class="back card">
+                            <img src="./images/H-player/Ayew.png" alt="" />
+                        </div>
+                    </li>
+                    <li class="group-item">
+                        <img
+                            class="front card"
+                            src="./images/Group-H/uy.png"
+                            alt="우루과이 국기"
+                        />
+                        <div class="back card">
+                            <img src="./images/H-player/Suarez.png" alt="" />
+                        </div>
+                    </li>
+                    <li class="group-item">
+                        <img
+                            class="front card"
+                            src="./images/Group-H/kr.png"
+                            alt="태극기"
+                        />
+                        <div class="back card">
+                            <img src="./images/H-player/Son.png" alt="" />
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn-prev"><</button>
+                <button class="btn-next">></button>
+            </section>
+            <div class="container">
+                <div class="popup-wrap" id="popup">
+                    <div class="popup">
+                        <div class="popup-head">
+                            <span class="head-title"> H조 경기일정</span>
+                        </div>
+                        <div class="popup-body">
+                            <div class="body-content">
+                                <div class="body-titlebox"></div>
+                                <div class="body-contentbox">
+                                    <p class="m-p">
+                                        2022. 11. 24. 오후 10:00 우루과이 vs
+                                        대한민국
+                                        <br />
+                                        2022. 11. 25. 오전 01:00 포르투갈 vs
+                                        가나
+                                    </p>
+
+                                    <p class="m-p">
+                                        2022. 11. 28. 오후 10:00 대한민국 vs
+                                        가나
+                                        <br />2022. 11. 29. 오전 04:00 포르투갈
+                                        vs 우루과이
+                                    </p>
+                                    <p class="m-p">
+                                        2022. 12. 03. 오전 00:00 가나 vs
+                                        우루과이
+                                        <br />
+                                        2022. 12. 03. 오전 00:00 대한민국 vs
+                                        포르투갈
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popup-foot">
+                            <span class="pop-btn confirm" id="confirm"
+                                >확인</span
+                            >
+                            <span class="pop-btn close" id="close"
+                                >창 닫기</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <iframe
+                class="youtube-video"
+                width="0"
+                height="0"
+                allow="autoplay"
+                src="https://www.youtube.com/embed/sQJaztbrErc?autoplay=1&enablejsapi=1&version=3&playerapiid=ytplayer"
+                frameborder="0"
+                allowfullscreen
+            ></iframe>
+
+            <button class="btn-music-pause">🟪</button>
+            <button class="btn-music-play">🎵</button>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
