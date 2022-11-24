@@ -1,5 +1,6 @@
 body {
-    background-image: url(./images/bg2.jpg);
+    /* background-image: url(./images/bg.jpg); */
+    background-color: #975c8d;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +97,7 @@ li p {
 
 button:hover {
     outline: 3px solid white;
-    border-radius: 20px;
+    border-radius: 18px;
 }
 
 a {
@@ -141,18 +142,36 @@ a {
 }
 
 /*Group H*/
+.wrapper-group {
+    width: fit-content;
+    padding: 0 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    background-color: #c9b6e4;
+    /* box-shadow: 0px 1px 1px 1px #c9b6e4b7; */
+    column-gap: 50px;
+    grid-template-columns: repeat(4, 320px);
+    border-radius: 18px;
+}
+
 section.group-h {
+    background-color: #e1ccec;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    padding-top: 10px;
+    border-radius: 18px;
     width: 320px;
-    height: 320px;
-    margin: 60px auto;
-    box-sizing: border-box;
+    height: 305px;
+    margin: 30px auto;
+    /* box-sizing: border-box; */
     position: relative;
     overflow: hidden;
 }
 
 h2 {
-    color: violet;
-    margin-bottom: 30px;
+    color: whitesmoke;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -214,11 +233,11 @@ h2 {
     position: absolute;
     width: 60px;
     text-align: center;
-    bottom: 3%;
-    left: 3px;
-    border-radius: 20px;
+    bottom: 2px;
+    left: 2px;
+    border-radius: 18px;
     font-weight: bold;
-    background-color: darkcyan;
+    background-color: #d989b5;
     color: white;
     font-size: 32px;
     line-height: 1;
@@ -231,11 +250,11 @@ h2 {
     position: absolute;
     width: 60px;
     text-align: center;
-    bottom: 3%;
-    right: 3px;
-    border-radius: 20px;
+    bottom: 2px;
+    right: 2px;
+    border-radius: 18px;
     font-weight: bold;
-    background-color: darkcyan;
+    background-color: #d989b5;
     color: white;
     font-size: 32px;
     line-height: 1;
